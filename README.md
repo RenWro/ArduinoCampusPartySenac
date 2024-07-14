@@ -26,6 +26,10 @@ O projeto Botão de pânico teve que contar com um microswitch. A respeito desse
 
 
 Os leds tivem que ser conectados separadamente na protoboard, para que, uma vez que os botões fossem disparados, os leds acendessem.
+Outros tipos de microswitches estão representados no esquema abaixo:
+
+![image](https://github.com/user-attachments/assets/71e678f1-5f4e-4677-853a-58874b2f7191)
+
 
 Os projetos do sensor e do Botão de pânico deveriam utilizar Broker MTQQ para enviar mensagens reportando estado e mudança de estado, porém foi um desafio garantir que a rede não iimpedisse por razões de segurança tal conexão, deixando a conexão como um desafio para os próximos projetos.
 
